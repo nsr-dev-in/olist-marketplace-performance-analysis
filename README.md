@@ -2,29 +2,40 @@
 
 ### Data Analytics Hackathon Project | Conducted by Gradient
 
-An end-to-end data analytics project analyzing **marketplace performance, customer experience, delivery operations, customer retention, seller performance, and key business drivers** using the Brazilian E-Commerce Public Dataset by Olist.
+<p align="center">
+  <img src="images/project_overview.png" alt="Olist Marketplace Analysis" width="850">
+</p>
+
+An end-to-end data analytics project analyzing **marketplace performance, customer experience, delivery operations, customer retention, seller performance, and key business drivers** using Brazilian e-commerce data from Olist.
 
 ---
 
-## Project Overview
+# Contributors
 
-This project analyzes the overall performance of the **Olist e-commerce marketplace** and explores the factors associated with customer satisfaction and dissatisfaction.
+- **Nitin Singh**
+- **Pratham Meena**
+
+---
+
+# Project Overview
+
+The **Olist Marketplace Performance & Customer Experience Analysis** is an end-to-end data analytics project focused on understanding overall marketplace performance and identifying the key factors associated with customer satisfaction and dissatisfaction.
 
 The analysis uses approximately **100,000 real e-commerce orders from Brazil**, covering the period from **September 2016 to October 2018**.
 
-Multiple business dimensions were combined to create a consolidated view of marketplace performance, including:
+The project combines multiple business dimensions, including:
 
-- Orders and revenue trends
-- Customer satisfaction
-- Delivery performance
-- Product category performance
-- Geographic patterns
-- Seller performance
-- Customer retention
-- Payment behavior
-- Root cause analysis
+- Orders and Revenue
+- Customers
+- Sellers
+- Products
+- Payments
+- Deliveries
+- Customer Reviews
+- Geographic Locations
+- Customer Retention
 
-The ultimate goal is to transform raw marketplace data into **evidence-based business insights and actionable recommendations** that can help improve customer experience, operational performance, and sustainable marketplace growth.
+The goal is to transform raw e-commerce data into **evidence-based business insights and actionable recommendations**.
 
 ---
 
@@ -34,16 +45,14 @@ As an e-commerce marketplace grows, managing customers, sellers, products, payme
 
 The key challenge is understanding:
 
-- How the marketplace is performing over time
-- Which factors are associated with low customer satisfaction
-- How delivery performance impacts the customer experience
-- Which geographic regions face operational challenges
+- How the marketplace is performing
+- What factors are associated with low customer satisfaction
+- How delivery performance affects customer experience
+- Which regions face operational challenges
 - Which customers and sellers contribute most to revenue
 - Where the biggest opportunities for sustainable growth exist
 
-The project focuses on identifying meaningful patterns and relationships in the data.
-
-> **Important:** Since this is observational data, the analysis identifies associations and patterns rather than claiming direct causation.
+> **Important:** This analysis uses observational data. Therefore, findings describe associations and patterns rather than proving direct causation.
 
 ---
 
@@ -51,15 +60,15 @@ The project focuses on identifying meaningful patterns and relationships in the 
 
 The main objectives of this project are to:
 
-1. Analyze marketplace growth and performance over time.
+1. Analyze marketplace growth and performance.
 2. Understand order and revenue trends.
-3. Evaluate delivery performance across the marketplace.
-4. Analyze customer satisfaction using review scores.
-5. Identify factors strongly associated with low customer satisfaction.
-6. Analyze customer retention and repeat purchase behavior.
+3. Evaluate delivery performance.
+4. Analyze customer satisfaction.
+5. Identify factors associated with low review scores.
+6. Analyze customer retention.
 7. Identify high-value customers and sellers.
-8. Explore geographic and product category performance.
-9. Perform root cause analysis for low customer satisfaction.
+8. Explore geographic performance.
+9. Analyze product categories.
 10. Provide actionable business recommendations.
 
 ---
@@ -68,17 +77,14 @@ The main objectives of this project are to:
 
 The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
-### Dataset Overview
-
 | Metric | Details |
 |---|---|
 | Orders | Approximately 100,000 |
 | Period | September 2016 – October 2018 |
 | Country | Brazil |
-| Marketplace | Olist |
-| Dataset Type | E-Commerce Transaction Data |
+| Domain | E-Commerce Marketplace |
 
-### Major Datasets Used
+### Major Datasets
 
 - Customers
 - Orders
@@ -89,22 +95,22 @@ The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 - Customer Reviews
 - Geolocation
 
-These datasets were combined to create a consolidated analytical view of marketplace operations.
-
 ---
 
 # Project Workflow
+
+<p align="center">
+  <img src="images/workflow.png" alt="Project Workflow" width="900">
+</p>
 
 ```text
 DATA UNDERSTANDING
         ↓
 DATA CLEANING & PREPARATION
         ↓
-DATA EXPLORATION
+EXPLORATORY DATA ANALYSIS
         ↓
-MARKETPLACE PERFORMANCE ANALYSIS
-        ↓
-CUSTOMER & DELIVERY ANALYSIS
+BUSINESS ANALYSIS
         ↓
 ROOT CAUSE ANALYSIS
         ↓
