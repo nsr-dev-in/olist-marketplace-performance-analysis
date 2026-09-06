@@ -424,7 +424,7 @@ The marketplace has a significant opportunity to improve:
 # Root Cause Analysis
 
 <p align="center">
-  <img src="images/flow.png" alt="Root Cause Framework" width="900">
+  <img src="images/framework.png" alt="Root Cause Framework" width="900">
 </p>
 
 ## Root Cause Framework
