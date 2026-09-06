@@ -306,10 +306,6 @@ This creates a potential concentration risk because losing major sellers could s
 
 # Geographic Revenue Analysis
 
-<p align="center">
-  <img src="images/revenue_by_states.png" alt="Revenue by States" width="900">
-</p>
-
 ## Key Finding
 
 São Paulo generates approximately:
@@ -358,9 +354,6 @@ This analysis helps identify:
 
 # Customer Revenue Segmentation
 
-<p align="center">
-  <img src="images/revenue_contribution_segment.png" alt="Revenue Contribution by Customer Segment" width="850">
-</p>
 
 ## Key Finding
 
@@ -384,10 +377,6 @@ Losing these customers could have a major impact on business performance.
 ---
 
 # Revenue Contribution by Payment Method
-
-<p align="center">
-  <img src="images/revenue_contribution_payment_method.png" alt="Revenue Contribution by Payment Method" width="850">
-</p>
 
 The payment method analysis helps understand how customers prefer to complete transactions and which payment channels contribute the most to marketplace revenue.
 
